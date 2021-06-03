@@ -56,3 +56,5 @@ atividade 01/dist/
 atividade 01/build/
 
 *.pdsbak
+
+*.workspace
