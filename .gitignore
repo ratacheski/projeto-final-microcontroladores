@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+atividade 01/dist/
+
+atividade 01/build/
+
+*.pdsbak

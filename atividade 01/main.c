@@ -38,13 +38,11 @@
 /*==========================================================================*/
 unsigned int x = 0;
 unsigned int y = 0;
-unsigned int result = 0;
 unsigned int digito = 0;
-char caracter;
 char linha1[16];
 char linha2[16];
 char tx_string[30];
-__bit flag_interrupcao = 0;
+__bit hasX = 0;
 
 void serial_send(char character) {
     TXIF = 0;
@@ -61,22 +59,78 @@ void serial_sendString(const char phrase[]) {
     }
 }
 
-void __interrupt() RS232(void) {
-    if (RCIF) {
-        if (RCREG == '\r') {
-            sprintf(linha2, "       ans=%5u", x);
-            Lcd_Set_Cursor(2, 1);
-            Lcd_Write_String(linha2);
+void reset_values(){
+    x = 0;
+    y = 0;
+    hasX = 0;
+}
 
-            sprintf(tx_string, "%u\r", x);
-            serial_sendString(tx_string);
+void get_x() {
+    if (RCREG == '\r') {
+        Lcd_Clear();
+        Lcd_Set_Cursor(1, 1);
+        Lcd_Write_String("Digite o valor Y");
+        sprintf(tx_string, "X = %u\r", x);
+        serial_sendString(tx_string);
+        hasX = 1;
+    } else {
+        digito = RCREG - 0x30;
+        if (x > 6553 || (x == 6553 && digito > 5)) {
+            Lcd_Clear();
+            Lcd_Set_Cursor(1, 1);
+            Lcd_Write_String("Valor  invalido!");
+            __delay_ms(200);
+            Lcd_Set_Cursor(2, 1);
+            Lcd_Write_String("Digite Novamente");
+            __delay_ms(500);
+            Lcd_Clear();
             x = 0;
         } else {
-            digito = RCREG - 0x30;
             x = x * 10 + digito;
-            sprintf(linha1, "%5u           ", x);
+            sprintf(linha1, "X = %5u           ", x);
             Lcd_Set_Cursor(1, 1);
             Lcd_Write_String(linha1);
+        }
+    }
+}
+
+void get_y_and_sum() {
+    if (RCREG == '\r') {
+        sprintf(linha2, "   TOTAL = %u", x+y);
+        Lcd_Set_Cursor(2, 1);
+        Lcd_Write_String(linha2);
+        sprintf(tx_string, "Y = %u\r", y);
+        serial_sendString(tx_string);        
+        sprintf(tx_string, "TOTAL = %u\r", x+y);
+        serial_sendString(tx_string);
+        reset_values();
+    } else {
+        digito = RCREG - 0x30;
+        if (y > 6553 || (y == 6553 && digito > 5)) {
+            Lcd_Clear();
+            Lcd_Set_Cursor(1, 1);
+            Lcd_Write_String("Valor  invalido!");
+            __delay_ms(200);
+            Lcd_Set_Cursor(2, 1);
+            Lcd_Write_String("Digite Novamente");
+            __delay_ms(500);
+            Lcd_Clear();
+            y = 0;
+        } else {
+            y = y * 10 + digito;
+            sprintf(linha1, "Y = %5u           ", y);
+            Lcd_Set_Cursor(1, 1);
+            Lcd_Write_String(linha1);
+        }
+    }
+}
+
+void __interrupt() RS232(void) {
+    if (RCIF) {
+        if (!hasX) {
+            get_x();
+        } else {
+            get_y_and_sum();
         }
         RCIF = 0;
     }
@@ -112,14 +166,10 @@ void main(void) {
     Lcd_Clear();
     Lcd_Set_Cursor(1, 1);
     Lcd_Write_String("      SOMA      ");
-    Lcd_Set_Cursor(2, 1);
-    Lcd_Write_String("Teste");
-    __delay_ms(200);
-    serial_sendString("Teste");
+    __delay_ms(500);
+    Lcd_Clear();
+    Lcd_Set_Cursor(1, 1);
+    Lcd_Write_String("Digite o valor X");
     while (1) {
-        if (flag_interrupcao == 1) {
-            serial_send(caracter); // envia o caractere digitado via serial
-            flag_interrupcao = 0;
-        }
     }
 }
