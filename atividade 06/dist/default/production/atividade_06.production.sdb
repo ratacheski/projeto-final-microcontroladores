@@ -1,0 +1,393 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"3 C:\Users\joelv\OneDrive\햞ea de Trabalho\projeto-final-microcontroladores-main\atividade 06/lcd.h
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"25
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"38
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"55
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"73
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"88
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"38 C:\Users\joelv\OneDrive\햞ea de Trabalho\projeto-final-microcontroladores-main\atividade 06\main.c
+[v _setupInt setupInt `(v  1 e 1 0 ]
+"44
+[v _setupTmr0 setupTmr0 `(v  1 e 1 0 ]
+"53
+[v _interrupcao interrupcao `IIH(v  1 e 1 0 ]
+"79
+[v _main main `(v  1 e 1 0 ]
+[s S47 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3290 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S56 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S65 . 1 `S47 1 . 1 0 `S56 1 . 1 0 ]
+[v _LATDbits LATDbits `VES65  1 e 1 @3980 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4223
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S92 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6606
+[s S95 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S102 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S107 . 1 `S92 1 . 1 0 `S95 1 . 1 0 `S102 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES107  1 e 1 @4033 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"8146
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"8153
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+"9741
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"9825
+[v _INT0IE INT0IE `VEb  1 e 0 @32660 ]
+"9828
+[v _INT0IF INT0IF `VEb  1 e 0 @32657 ]
+"9873
+[v _INTEDG0 INTEDG0 `VEb  1 e 0 @32654 ]
+"9993
+[v _LATD2 LATD2 `VEb  1 e 0 @31842 ]
+"9996
+[v _LATD3 LATD3 `VEb  1 e 0 @31843 ]
+"9999
+[v _LATD4 LATD4 `VEb  1 e 0 @31844 ]
+"10002
+[v _LATD5 LATD5 `VEb  1 e 0 @31845 ]
+"10005
+[v _LATD6 LATD6 `VEb  1 e 0 @31846 ]
+"10008
+[v _LATD7 LATD7 `VEb  1 e 0 @31847 ]
+"10314
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"10716
+[v _T08BIT T08BIT `VEb  1 e 0 @32430 ]
+"10722
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"10812
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"10815
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"10821
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"34 C:\Users\joelv\OneDrive\햞ea de Trabalho\projeto-final-microcontroladores-main\atividade 06\main.c
+[v _linha2 linha2 `[16]uc  1 e 16 0 ]
+"35
+[v _cont cont `i  1 e 2 0 ]
+[v _periodo periodo `i  1 e 2 0 ]
+"79
+[v _main main `(v  1 e 1 0 ]
+{
+"108
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S635 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+"13
+[v sprintf@f f `S635  1 a 6 10 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 8 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 2 ]
+[v sprintf@fmt fmt `*.25Cuc  1 p 2 4 ]
+"23
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 0 ]
+[s S661 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.39S661  1 p 2 80 ]
+[v vfprintf@fmt fmt `*.25Cuc  1 p 2 82 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 84 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"696
+[v vfpfcnvrt@ll ll `o  1 a 8 72 ]
+[s S661 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.39S661  1 p 2 64 ]
+[v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 66 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 68 ]
+"1387
+} 0
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+"290
+[v dtoa@n n `o  1 a 8 54 ]
+"289
+[v dtoa@i i `i  1 a 2 62 ]
+[v dtoa@s s `i  1 a 2 52 ]
+[v dtoa@w w `i  1 a 2 50 ]
+[v dtoa@p p `i  1 a 2 48 ]
+[s S661 _IO_FILE 0 ]
+"287
+[v dtoa@fp fp `*.39S661  1 p 2 28 ]
+[v dtoa@d d `o  1 p 8 30 ]
+"328
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 26 ]
+[v pad@i i `i  1 a 2 24 ]
+[s S661 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S661  1 p 2 17 ]
+[v pad@buf buf `*.39uc  1 p 2 19 ]
+[v pad@p p `i  1 p 2 21 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 3 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 1 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 15 ]
+"10
+[v fputs@c c `uc  1 a 1 14 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 10 ]
+[s S635 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S635  1 p 2 12 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 1 ]
+[s S635 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S635  1 p 2 3 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 19 ]
+"4
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 18 ]
+[v ___aomod@counter counter `uc  1 a 1 17 ]
+"9
+[v ___aomod@dividend dividend `o  1 p 8 1 ]
+[v ___aomod@divisor divisor `o  1 p 8 9 ]
+"36
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 19 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 18 ]
+[v ___aodiv@counter counter `uc  1 a 1 17 ]
+"9
+[v ___aodiv@dividend dividend `o  1 p 8 1 ]
+[v ___aodiv@divisor divisor `o  1 p 8 9 ]
+"43
+} 0
+"44 C:\Users\joelv\OneDrive\햞ea de Trabalho\projeto-final-microcontroladores-main\atividade 06\main.c
+[v _setupTmr0 setupTmr0 `(v  1 e 1 0 ]
+{
+"51
+} 0
+"38
+[v _setupInt setupInt `(v  1 e 1 0 ]
+{
+"43
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 1 ]
+[v ___awdiv@divisor divisor `i  1 p 2 3 ]
+"41
+} 0
+"88 C:\Users\joelv\OneDrive\햞ea de Trabalho\projeto-final-microcontroladores-main\atividade 06/lcd.h
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+"89
+[v Lcd_Write_String@i i `i  1 a 2 9 ]
+"88
+[v Lcd_Write_String@a a `*.35uc  1 p 2 5 ]
+"92
+} 0
+"73
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"74
+[v Lcd_Write_Char@y y `uc  1 a 1 3 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 2 ]
+"73
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"75
+[v Lcd_Write_Char@a a `uc  1 a 1 4 ]
+"86
+} 0
+"38
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"39
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 8 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 7 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 6 ]
+"38
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 4 ]
+"40
+[v Lcd_Set_Cursor@a a `uc  1 a 1 5 ]
+"53
+} 0
+"55
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"71
+} 0
+"25
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 3 ]
+"31
+} 0
+"3
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 1 ]
+"23
+} 0
+"53 C:\Users\joelv\OneDrive\햞ea de Trabalho\projeto-final-microcontroladores-main\atividade 06\main.c
+[v _interrupcao interrupcao `IIH(v  1 e 1 0 ]
+{
+"77
+} 0
