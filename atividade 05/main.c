@@ -1,3 +1,10 @@
+/*
+ * File:   main.c
+ * Author: Joel Felippe Velloso
+ *
+ * Created on 5 de Junho de 2021, 11:35
+ */
+
 #define _XTAL_FREQ 4000000
 
 #include <xc.h>
