@@ -1,10 +1,3 @@
-/*
- * File:   Tarefa5Ex1.c
- * Author: isabella
- *
- * Created on 04 de junho de 2021, 19:30
- */
-
 #define _XTAL_FREQ 4000000
 
 #include <xc.h>
@@ -43,8 +36,8 @@ void setupInt(void) {
 }
 void setupTmr0() {
   T08BIT = 0; // Temporizador operando em 16 bits      
-  T0CS = 0; // Módulo operando como temporizador  
-  PSA = 1; // Pré-escala desabilitada   
+  T0CS = 0; // MÃ³dulo operando como temporizador  
+  PSA = 1; // PrÃ©-escala desabilitada   
   TMR0H = 0x3C; // Recarga de 15.535 (conta 50.000 pulsos de 1 us)
   TMR0L = 0xAF;
   TMR0ON = 1; // Liga o temporizador 0     
