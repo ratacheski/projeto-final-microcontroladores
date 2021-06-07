@@ -72,7 +72,7 @@ void __interrupt() interrupcao(void) {
         INT2F = 0;
     }
     if (TMR0IF){
-        if(cont == 255){
+        if(cont == 0xFFFFFFFF){
             cont = 0;
         }
         else{

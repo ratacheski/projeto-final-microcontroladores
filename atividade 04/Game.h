@@ -25,7 +25,7 @@ extern "C" {
     byte playerPosition;
     byte playing;
     byte level;
-    byte cont;
+    unsigned int cont;
     
     //Game Functions
     void EEPROM_WriteByte(byte eepromAddress, byte eepromData);
