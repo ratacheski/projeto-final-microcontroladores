@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+$C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 idloc IDLOC 5 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 4 300000 300000 E 1
@@ -384,38 +384,38 @@ DC2 text0 CODE >96:D:\PIC\projeto-final-microcontroladores\atividade 02\atividad
 DD0 text0 CODE >97:D:\PIC\projeto-final-microcontroladores\atividade 02\atividade-02.X\main.c
 E06 text0 CODE >98:D:\PIC\projeto-final-microcontroladores\atividade 02\atividade-02.X\main.c
 E1A text0 CODE >99:D:\PIC\projeto-final-microcontroladores\atividade 02\atividade-02.X\main.c
-15DC cinit CODE >574:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15DC cinit CODE >576:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15DC cinit CODE >579:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15DC cinit CODE >622:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15DE cinit CODE >623:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15E0 cinit CODE >624:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15E2 cinit CODE >625:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15E4 cinit CODE >626:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15E6 cinit CODE >627:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15E8 cinit CODE >628:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15EA cinit CODE >629:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15EE cinit CODE >630:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15F0 cinit CODE >631:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15F4 cinit CODE >635:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15F8 cinit CODE >636:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15FA cinit CODE >637:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15FA cinit CODE >638:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15FC cinit CODE >639:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-15FE cinit CODE >640:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-1600 cinit CODE >643:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-1604 cinit CODE >644:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-1606 cinit CODE >645:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-1606 cinit CODE >646:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-1608 cinit CODE >647:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-160A cinit CODE >648:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-160C cinit CODE >654:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-160C cinit CODE >657:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-160E cinit CODE >658:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-1610 cinit CODE >659:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-1612 cinit CODE >660:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-1614 cinit CODE >661:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
-1616 cinit CODE >662:C:\Users\rafae\AppData\Local\Temp\xcAs9hc.s
+15DC cinit CODE >574:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15DC cinit CODE >576:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15DC cinit CODE >579:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15DC cinit CODE >622:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15DE cinit CODE >623:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15E0 cinit CODE >624:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15E2 cinit CODE >625:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15E4 cinit CODE >626:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15E6 cinit CODE >627:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15E8 cinit CODE >628:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15EA cinit CODE >629:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15EE cinit CODE >630:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15F0 cinit CODE >631:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15F4 cinit CODE >635:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15F8 cinit CODE >636:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15FA cinit CODE >637:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15FA cinit CODE >638:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15FC cinit CODE >639:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+15FE cinit CODE >640:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+1600 cinit CODE >643:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+1604 cinit CODE >644:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+1606 cinit CODE >645:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+1606 cinit CODE >646:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+1608 cinit CODE >647:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+160A cinit CODE >648:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+160C cinit CODE >654:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+160C cinit CODE >657:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+160E cinit CODE >658:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+1610 cinit CODE >659:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+1612 cinit CODE >660:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+1614 cinit CODE >661:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
+1616 cinit CODE >662:C:\Users\rafae\AppData\Local\Temp\xcAscd4.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -436,18 +436,18 @@ __Hspace_4 60000E 0 ABS 0 - dist/default/production\atividade-02.X.production.o
 _Lcd_Init 13BC 0 CODE 0 text16 dist/default/production\atividade-02.X.production.o
 _Lcd_Port 14F2 0 CODE 0 text18 dist/default/production\atividade-02.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\atividade-02.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\atividade-02.X.production.o
 __end_of_Lcd_Init 142E 0 CODE 0 text16 dist/default/production\atividade-02.X.production.o
 __end_of_Lcd_Port 154E 0 CODE 0 text18 dist/default/production\atividade-02.X.production.o
 ?_vfprintf 10 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.production.o
 __Lsmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\atividade-02.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+___sp 0 0 STACK 2 stack C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 _main BBE 0 CODE 0 text0 dist/default/production\atividade-02.X.production.o
 _nout 34 0 COMRAM 1 bssCOMRAM dist/default/production\atividade-02.X.production.o
 _prec 38 0 COMRAM 1 bssCOMRAM dist/default/production\atividade-02.X.production.o
 _Lcd_Write_Char 161A 0 CODE 0 text9 dist/default/production\atividade-02.X.production.o
-start 0 0 CODE 0 init C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+start 0 0 CODE 0 init C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 __size_of___fldiv 0 0 ABS 0 - dist/default/production\atividade-02.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\atividade-02.X.production.o
 Lcd_Port@a 1 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.production.o
@@ -459,11 +459,11 @@ _print_belt 1338 0 CODE 0 text2 dist/default/production\atividade-02.X.productio
 __end_of_vfpfcnvrt 11C4 0 CODE 0 text5 dist/default/production\atividade-02.X.production.o
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\atividade-02.X.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\atividade-02.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
-intlevel0 0 0 CODE 0 text C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
-intlevel1 0 0 CODE 0 text C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
-intlevel2 0 0 CODE 0 text C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
-intlevel3 0 0 CODE 0 text C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+__accesstop 60 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
+intlevel0 0 0 CODE 0 text C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
+intlevel1 0 0 CODE 0 text C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
+intlevel2 0 0 CODE 0 text C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
+intlevel3 0 0 CODE 0 text C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\atividade-02.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\atividade-02.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\atividade-02.X.production.o
@@ -477,8 +477,8 @@ __end_of_Lcd_Write_Char 1652 0 CODE 0 text9 dist/default/production\atividade-02
 ___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.production.o
 _ADRESH FC4 0 ABS 0 - dist/default/production\atividade-02.X.production.o
 _ADRESL FC3 0 ABS 0 - dist/default/production\atividade-02.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\atividade-02.X.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\atividade-02.X.production.o
 __end_of___fleq 1338 0 CODE 0 text14 dist/default/production\atividade-02.X.production.o
@@ -506,7 +506,7 @@ _OSCCON FD3 0 ABS 0 - dist/default/production\atividade-02.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\atividade-02.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\atividade-02.X.production.o
 _Lcd_Write_String 159C 0 CODE 0 text8 dist/default/production\atividade-02.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+isa$xinst 0 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 __size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\atividade-02.X.production.o
 fputc@fp 3 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.production.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\atividade-02.X.production.o
@@ -538,7 +538,7 @@ __Htext9 0 0 ABS 0 text9 dist/default/production\atividade-02.X.production.o
 __size_of___xxtofl 0 0 ABS 0 - dist/default/production\atividade-02.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\atividade-02.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\atividade-02.X.production.o
-__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 ___xxtofl@arg 11 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.production.o
 ___xxtofl@exp 10 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.production.o
 ___xxtofl@val 7 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.production.o
@@ -652,12 +652,12 @@ ___fldiv@grs 28 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.p
 ___fldiv@rem 21 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\atividade-02.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\atividade-02.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+isa$std 1 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 ___fldiv@new_exp 26 0 COMRAM 1 cstackCOMRAM dist/default/production\atividade-02.X.production.o
 _tensao 30 0 COMRAM 1 bssCOMRAM dist/default/production\atividade-02.X.production.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production\atividade-02.X.production.o
-stackhi 7FF 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
-stacklo 80 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+stackhi 7FF 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
+stacklo 80 0 ABS 0 - C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\atividade-02.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\atividade-02.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\atividade-02.X.production.o
@@ -716,7 +716,7 @@ __Ltext15 0 0 ABS 0 text15 dist/default/production\atividade-02.X.production.o
 __Ltext16 0 0 ABS 0 text16 dist/default/production\atividade-02.X.production.o
 __Ltext17 0 0 ABS 0 text17 dist/default/production\atividade-02.X.production.o
 __Ltext18 0 0 ABS 0 text18 dist/default/production\atividade-02.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\rafae\AppData\Local\Temp\xcAs9hc.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\rafae\AppData\Local\Temp\xcAscd4.o
 _sprintf 154E 0 CODE 0 text3 dist/default/production\atividade-02.X.production.o
 _vfprintf 1494 0 CODE 0 text4 dist/default/production\atividade-02.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\atividade-02.X.production.o
